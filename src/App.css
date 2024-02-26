@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.main-container {
+  margin: 0px auto;
+}
+
+.btc-price {
+  color: white;
+  font-weight: 500;
+  span {
+    color: red;
+  }
+}
+
+.footer {
+  margin-top: 6rem;
+  max-width: 38rem;
+  color: #fefefe;
+  font-weight: 500
+}

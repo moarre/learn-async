@@ -20,7 +20,7 @@ function App() {
       
       setTextPrice(data.bpi.USD.rate);
       setDisclaimer(data.disclaimer)
-    } catch {
+    } catch(err) {
       throw new Error();
     } finally {
       console.log("Request completed");
